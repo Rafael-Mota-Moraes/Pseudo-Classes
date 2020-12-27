@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+.parent{
+    background-color: rgb(24, 24, 139);
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+    background-color: green;
+}
+/*
+
+Fórmulas: Estamos dizendo que a cada 2 elementos aplique o estilo.
+
+.parent div:nth-of-type(2n + 1) > div.item{
+    background-color: red;
+}
+*/
+
+/*
+.parent div:last-of-type div.item{
+    background-color: purple;
+}
+.parent div:first-of-type div.item{
+    background-color: purple;
+}
+*/
+
+/*
+.parent p:first-of-type{
+    color:orange;
+}
+*/

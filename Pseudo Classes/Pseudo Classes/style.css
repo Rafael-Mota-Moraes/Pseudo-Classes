@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.teste, .teste1, .teste2{
+        width: 300px;
+        height: 30px;
+        /*
+        background-color: grey;
+        */
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 30px;
+}
+.teste1{
+    background-color: rgb(98, 98, 98);
+}
+.teste2{
+    background-color: rgb(50, 50, 50);
+}
+/*
+.teste:hover{
+    Hover = Quando o mause passa em cima, muda a propriedade
+    height: 900px;
+    background-color: blue;
+}
+.teste:hover, .teste1, .teste2{
+    vertical-align: top;
+}
+*/
+
+/*
+Serve para quando deixamos o mause clicado
+.teste:active{
+    background-color: black;
+}
+*/
+/*
+Focus serve para quando clicamos e focamos o nosso elemento do formulário
+.teste:focus{
+    background-color: red;
+}
+.textarea1{
+    display: block;
+    width: 600px;
+    height: 400px;
+}
+*/
+/*
+        MUDA COR DOS LINKS
+.link1:visited{
+    color: purple;
+
+}
+
+.link1:link{
+    color:orangered;
+}
+*/
+
